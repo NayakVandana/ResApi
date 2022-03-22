@@ -14,8 +14,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 //let mongoUrl = "mongodb://localhost:27017"; 
-
-let mongoUrl = "mongodb+srv://test:<password>@cluster0.rjvna.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+let mongoUrl = "mongodb+srv://test:test123@cluster0.6wj6p.mongodb.net/zomato?retryWrites=true&w=majority";
 let db;
 app.get("/",(req,res)=>{
     res.send("<h1>Hello From Home Page</h1>");
